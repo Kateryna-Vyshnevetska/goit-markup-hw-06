@@ -1,0 +1,36 @@
+.menu1 {
+  display: flex;
+  margin: -15px -15px ;
+}
+
+.menu1__item {
+  padding: 15px 15px;
+}
+
+.btn--menu1 {
+  padding: 15px 15px ;
+  border: 2px solid chartreuse;
+  border-radius: 25px;
+  background-color: violet;
+  display: block;
+  text-decoration: none;
+}
+
+.submenu {
+  text-decoration: none;
+  margin: -10px 0;
+  opacity: 0;
+}
+
+.s_i {
+  margin: 10px 0;
+  background-color: teal;
+  color: bisque;
+
+  transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu1__item:hover .submenu {
+  opacity: 1;
+}
+
